@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    background-color: rgb(97, 236, 17);
+}
+
+body {
+    margin: 0;
+    font-family: "Fira Sans", "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    background-color: #ecf1ef;
+    border-bottom: 4px solid #0831e9;
+    color: #020202;
+    overflow: auto;
+}
+
+nav a {
+    color: #0b0c0b;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #050505;
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(18, 206, 231);
+    border-bottom: 2px solid #696;
+    color: #070707;
+    overflow: auto;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+
+    padding: 0.5em;
+
+    background-color: #F2F2F2;
+    color: #333;
+}
+
+footer {
+    color: rgb(10, 6, 6);
+}
+
+footer a:link {
+    color: rgb(50, 7, 243);
+}
+
+footer a:visited {
+    color: rgb(158, 10, 216);
+}
+
+footer a:hover {
+    color: rgb(236, 14, 236);
+}
